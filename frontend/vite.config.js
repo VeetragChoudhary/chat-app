@@ -8,7 +8,7 @@ export default defineConfig({
         port: 3000,
         proxy: {
             "/api": {
-                target: "https://chat-app-khk5.vercel.app",
+                target: "https://chat-app-retry-backend.vercel.app",
             },
         },
     },
