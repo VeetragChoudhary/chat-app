@@ -18,10 +18,7 @@ const __dirname = path.resolve()
 
 dotenv.config()
 
-app.use(cors({
-  origin: true, 
-  credentials: true,
-}))
+app.use(cors())
 app.use(express.json())
 app.use(cookieParser())
 
