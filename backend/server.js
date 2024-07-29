@@ -6,8 +6,9 @@ import cors from "cors"
 
 app.use(cors({
   "origin": "*",
-  allowedHeaders: true,
+  "allowedHeaders": true,
 }))
+
 
 import authRoutes from "./routes/auth.routes.js"
 import messageRoutes from "./routes/message.routes.js"
