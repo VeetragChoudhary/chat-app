@@ -4,7 +4,10 @@ import dotenv from "dotenv"
 import cookieParser from "cookie-parser"
 import cors from "cors"
 
-app.use(cors())
+// app.use(cors())
+app.use(cors({
+  origin: "https://chat-app-retry.vercel.app", 
+}))
 import authRoutes from "./routes/auth.routes.js"
 import messageRoutes from "./routes/message.routes.js"
 import userRoutes from "./routes/user.routes.js"
