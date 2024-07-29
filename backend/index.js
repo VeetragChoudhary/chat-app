@@ -5,7 +5,7 @@ import dotenv from "dotenv"
 import cookieParser from "cookie-parser"
 import cors from "cors"
 
-console.log(cors)
+console.log("cors",cors)
 app.use(cors())
 
 
