@@ -5,6 +5,7 @@ import cookieParser from "cookie-parser"
 import cors from "cors"
 
 // app.use(cors())
+console.log(cors)
 app.use(cors({
   origin: "https://chat-app-retry.vercel.app", 
 }))
