@@ -30,6 +30,9 @@ app.use("/api/users", userRoutes)
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
+app.get('/new', (req, res) => {
+  res.send('This is new path!')
+})
 
 server.listen(PORT, () => {
     console.log(`Server started at port ${PORT}`)
