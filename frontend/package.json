@@ -9,8 +9,6 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "proxy": "https://chat-app-jade-mu.vercel.app",
-
   "dependencies": {
     "chat-app-final": "file:..",
     "emoji-picker-react": "^4.9.4",
