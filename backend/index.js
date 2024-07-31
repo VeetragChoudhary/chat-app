@@ -3,8 +3,6 @@ import path from 'path'
 import express from "express"
 import dotenv from "dotenv"
 import cookieParser from "cookie-parser"
-import cors from "cors"
-
 
 
 import authRoutes from "./routes/auth.routes.js"
@@ -20,11 +18,6 @@ const __dirname = path.resolve()
 
 dotenv.config()
 
-console.log("this is cors",cors)
-app.use(cors({
-  credentials: true,
-  origin: '*',
-}));
 app.use(express.json())
 app.use(cookieParser())
 
